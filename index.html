@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./style.css"></link>
+  </head>
+  <body>
+    <div id="i-am-root">
+      <h1>STAR WARS COOLEST LIST EVA!!!!!!!!</h1>
+      <form class="filters">
+        <fieldset>
+          <label for="mass-descending">
+            Mass Descending
+          </label>
+          <input
+            id="mass-descending"
+            name="mass"
+            type="radio"
+            data-order="descending"
+            checked
+          />
+          <label for="mass-ascending">
+            Mass Ascending
+          </label>
+          <input
+            id="mass-ascending"
+            name="mass"
+            type="radio"
+            data-order="ascending"
+          />
+        </fieldset>
+        <fieldset>
+            <label for="all-genders">
+              All genders
+            </label>
+            <input
+              id="all-genders"
+              name="gender"
+              type="radio"
+              data-gender="all"
+              checked
+            />
+            <label for="female-gender">
+              Female
+            </label>
+            <input
+              id="female-gender"
+              name="gender"
+              type="radio"
+              data-gender="female"
+            />
+              <label for="male-gender">
+                Male
+              </label>
+              <input
+                id="male-gender"
+                name="gender"
+                type="radio"
+                data-gender="male"
+              />
+              <label for="droid-gender">
+                  Droid
+                </label>
+                <input
+                  id="droid-gender"
+                  name="gender"
+                  type="radio"
+                  data-gender="n/a"
+                />
+          </fieldset>
+      </form>
+      <div class="wrapper">
+
+      </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
