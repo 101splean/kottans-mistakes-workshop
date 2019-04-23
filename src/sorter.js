@@ -1,3 +1,4 @@
+
 let peoples = [];
 let drawResult = null;
 
